@@ -1,12 +1,10 @@
-body {
-	line-height: 1;
-	
+html {
+  height: 100%;
 }
 
-header {
-	background-size: 0px auto;
-	margin-bottom: 15px;
-	line-height: 12;
+body {
+  height: 100%;
+  background-image:linear-gradient(#778c46, #a2b89a);
 }
 
 h1 {
@@ -31,14 +29,8 @@ q:before, q:after {
 
 /* custom css */
 
-body {
-    background-color: lightgreen;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
 h2 {
-    font-weight: bold;
+    font-weight: 100;
     font-size: 30px;
     text-align: Left;
     max-width: 0px auto;
@@ -48,7 +40,7 @@ h2 {
 }	
 
 h3 {
-    font-weight: bold;
+    font-weight: 60;
     font-size: 25px;
     text-align: Center;
     max-width: 0px auto;
@@ -58,15 +50,16 @@ h3 {
 }	
 
 p {
-	color: black;
-	font-size: 20px;
+
+	font-size: 25px;
+	font-weight: 200;
 	margin-left: 30px;
 	margin-right: 30px;
 }
 
 fieldset{
 	background-color: rgb(245, 245, 255);
-	
+	background-image: url("cricket4.jpg"); /* ref: http://farian.site/cricket-bat-hitting-ball.html */
 	margin: 20px auto 15px;
 	padding:15px;
 	width:45%;
@@ -76,7 +69,8 @@ label{
 	display:block;
 	float:left;
 	clear:left;
-	font-size: 1.0em;
+	font-size: 1.5em;
+	font-weight: bold;
 	width:100%;
 	margin-top:15px;
 	margin-bottom:10px;
@@ -107,9 +101,7 @@ input:focus {
 
 input:focus:valid {
 	background-color: rgb(255, 240, 225);
-	background-image: url("go.png");
 	background-position: right bottom;
-	background-repeat:no-repeat;
 	background-size: 20px 20px;
 }
 
@@ -128,4 +120,3 @@ box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.42);
 -moz-box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.42);
 -webkit-box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.42);
 }
-
