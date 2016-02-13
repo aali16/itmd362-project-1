@@ -39,6 +39,10 @@ h2 {
 }	
 
 h3 {
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
     font-size: 25px;
     text-align: Center;
     max-width: 0px auto;
@@ -49,8 +53,12 @@ h3 {
 
 p {
 
-	font-size: 25px;
+<<<<<<< Updated upstream
+	font-size: 15px;
 	font-weight: 200;
+=======
+	font-size: 16px;
+>>>>>>> Stashed changes
 	margin-left: 30px;
 	margin-right: 30px;
 }
