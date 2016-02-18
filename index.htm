@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no" />
   <link href="main.css" rel="stylesheet" media="screen"/>
    
-    <link href='https://fonts.googleapis.com/css?family=Oxygen:400,700|Raleway:400,500,200' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Oxygen:400,700Raleway:400,500,200' rel='stylesheet' type='text/css'>
 </head>
 
 <body>
@@ -36,11 +36,19 @@
 	<form class="signup" action="mailto:aali16@hawk.iit.edu" method="post">
 	<fieldset id="commentFS">
 	<h3>Sign up for more information about Cricket</h3>
-	<label for="username">Username <input type="text" name="Username" placeholder="Supply your username" required></label>
-	<label for="firstname">First Name <input type="text" name="First Name" placeholder="Supply your first name" required></label>
-	<label for="lastname">Last Name <input type="text" name="Last Name" placeholder="Supply your Last name" required></label>
-	<label for="email">E-mail <input type="email" name="email" placeholder="Supply a valid email address" required></label>
-	<label for="contact">Phone# <input type="number" name="contact" placeholder="111-111-1111" required></label>
+
+	<label for="username">Username</label> 
+        <input type="text" id="username" name="username" placeholder="Supply your username" required>
+
+	<label for="name">Full Name </label>
+        <input type="text" id="name" name="name" placeholder="Supply your full name" required>
+
+	<label for="email">E-mail </label>
+        <input type="email" id="email" name="email" placeholder="Supply a valid email address" required>
+
+	<label for="contact">Phone# </label>
+        <input type="number" id="contact" name="contact" placeholder="111-111-1111" required>
+
 	</fieldset>
 	
 	<input type="submit" Value="SIGN UP">
